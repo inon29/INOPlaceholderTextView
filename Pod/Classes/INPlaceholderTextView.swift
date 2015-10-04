@@ -39,8 +39,6 @@ public class INOPlaceholderTextView : UITextView {
         label.font = self.font
         label.backgroundColor = UIColor.clearColor()
         label.textColor = _placeholderTextColor
-        label.alpha = 1
-        label.tag = 999
         label.text = _placeholderText
         label.sizeToFit()
         self.addSubview(label)
