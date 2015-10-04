@@ -1,0 +1,6 @@
+framework module INOPlaceholderTextView {
+  umbrella header "INOPlaceholderTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

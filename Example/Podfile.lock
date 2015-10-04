@@ -1,0 +1,14 @@
+PODS:
+  - INOPlaceholderTextView (0.1.0)
+
+DEPENDENCIES:
+  - INOPlaceholderTextView (from `../`)
+
+EXTERNAL SOURCES:
+  INOPlaceholderTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  INOPlaceholderTextView: 2be1df31236574cbb0a760a5beef1c33073ea57a
+
+COCOAPODS: 0.38.2
