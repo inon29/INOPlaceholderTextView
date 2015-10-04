@@ -22,7 +22,7 @@ pod "INOPlaceholderTextView"
 
 ## Author
 
-Your Name Heiya, morooka-akira@kayac.com
+ino29, now276never0@gmail.com 
 
 ## License
 
