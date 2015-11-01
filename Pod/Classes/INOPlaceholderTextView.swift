@@ -2,28 +2,37 @@
 import UIKit
 
 public class INOPlaceholderTextView : UITextView {
-   
+    
     // MARK: - property
     @IBInspectable var _placeholderText: String = ""
     private var _placeholderTextLabel: UILabel?
     private let _placeholderTextColor: UIColor = UIColor.lightGrayColor()
-   
+    
     // MARK: - init/deinit
     required public init?(coder aDecoder: NSCoder) {
-       super.init(coder: aDecoder)
+        super.init(coder: aDecoder)
+        commonInit()
+    }
+    
+    override init(frame: CGRect, textContainer: NSTextContainer?) {
+        super.init(frame: frame, textContainer: textContainer)
+        commonInit()
+    }
+    
+    private func commonInit() {
         let notificationCenter = NSNotificationCenter.defaultCenter()
         notificationCenter.addObserver(self, selector: "textChanged:",
             name: UITextViewTextDidChangeNotification, object: nil)
     }
     
     deinit {
-       NSNotificationCenter.defaultCenter().removeObserver(self)
+        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
     public override func awakeFromNib() {
         initPlaceholderTextLabel();
     }
-   
+    
     // MARK: - private
     /**
     プレースホルダLabelの初期化
@@ -39,6 +48,8 @@ public class INOPlaceholderTextView : UITextView {
         label.font = self.font
         label.backgroundColor = UIColor.clearColor()
         label.textColor = _placeholderTextColor
+        label.alpha = 1
+        label.tag = 999
         label.text = _placeholderText
         label.sizeToFit()
         self.addSubview(label)

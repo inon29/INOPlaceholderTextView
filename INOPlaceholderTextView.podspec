@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "INOPlaceholderTextView"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "プレースホルダつきのTextViewです"
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 プレースホルダつきのTextViewです。
-今は、storybord上から作成されることを想定しています。
                        DESC
 
   s.homepage         = "https://github.com/inon29/INOPlaceholderTextView"
