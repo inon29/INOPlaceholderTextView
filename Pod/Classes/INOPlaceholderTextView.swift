@@ -14,7 +14,7 @@ public class INOPlaceholderTextView : UITextView {
         commonInit()
     }
     
-    override init(frame: CGRect, textContainer: NSTextContainer?) {
+    public override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)
         commonInit()
     }
