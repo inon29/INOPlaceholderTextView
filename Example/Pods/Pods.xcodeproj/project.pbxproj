@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06227B1978BD45813A067277D9B9BD58 /* INPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DB3965CBB73B20D13C417E45B8425 /* INPlaceholderTextView.swift */; };
+		06227B1978BD45813A067277D9B9BD58 /* INOPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DB3965CBB73B20D13C417E45B8425 /* INOPlaceholderTextView.swift */; };
 		4EDAE0D4BA092AA95027DE69B90F240B /* Pods-INOPlaceholderTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CB3048329567F9967C2A325B0F44C /* Pods-INOPlaceholderTextView_Example-dummy.m */; };
 		57BE2DE1F1C2B5B63B8999697903F3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A79648292E116BCA40B2F24669297ED /* Foundation.framework */; };
 		7F4E4C78BF93A2E639459F9F1D7B2D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A79648292E116BCA40B2F24669297ED /* Foundation.framework */; };
@@ -61,7 +61,7 @@
 		45C5E3E55087A9CA6608C9E50F8773EB /* Pods-INOPlaceholderTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-INOPlaceholderTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A79648292E116BCA40B2F24669297ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		680030400B12CB0983298C1C4443149B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A2DB3965CBB73B20D13C417E45B8425 /* INPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INPlaceholderTextView.swift; sourceTree = "<group>"; };
+		6A2DB3965CBB73B20D13C417E45B8425 /* INOPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INOPlaceholderTextView.swift; sourceTree = "<group>"; };
 		6C84BFD1D6111E343158D65ECD4B823A /* Pods-INOPlaceholderTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-INOPlaceholderTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DF89D68F165BD43FF935DAB8A1D0972 /* Pods-INOPlaceholderTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-INOPlaceholderTextView_Example.modulemap"; sourceTree = "<group>"; };
 		7458A5EB45965D3DC64D8CE1B3C0F43E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		41B2E965DAC2A11117E4BCF9A83AF3A6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6A2DB3965CBB73B20D13C417E45B8425 /* INPlaceholderTextView.swift */,
+				6A2DB3965CBB73B20D13C417E45B8425 /* INOPlaceholderTextView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -411,7 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A63CAD16FD1C8F8F260CDF42201928D0 /* INOPlaceholderTextView-dummy.m in Sources */,
-				06227B1978BD45813A067277D9B9BD58 /* INPlaceholderTextView.swift in Sources */,
+				06227B1978BD45813A067277D9B9BD58 /* INOPlaceholderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
